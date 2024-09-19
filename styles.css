@@ -8,6 +8,12 @@ body {
     justify-content: space-between;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 footer {
     text-align: center;
 }
