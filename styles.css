@@ -19,6 +19,10 @@ h1 {
     text-align: center;
 }
 
+.content {
+    display: flex;
+}
+
 footer {
     text-align: center;
 }
