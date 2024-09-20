@@ -21,6 +21,10 @@ h1 {
 
 .content {
     display: flex;
+    flex-direction: column;
+    flex: 0 1 500px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer {
