@@ -15,6 +15,15 @@ nav {
     gap: 20px;
 }
 
+div a {
+    text-decoration: none;
+    color: grey;
+}
+
+div a:hover {
+    color: darkgrey;
+}
+
 h1 {
     text-align: center;
 }
