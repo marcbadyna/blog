@@ -22,9 +22,16 @@ h1 {
 .content {
     display: flex;
     flex-direction: column;
-    flex: 0 1 500px;
+    flex: 0 1 600px;
     justify-content: space-between;
     align-items: center;
+    gap: 16px;
+}
+
+.content .card {
+    background-color: #eee;
+    height: 200px;
+    width: 600px;
 }
 
 footer {
