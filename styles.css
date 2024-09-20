@@ -17,7 +17,7 @@ nav {
 
 div a {
     text-decoration: none;
-    color: grey;
+    color: rgb(75, 75, 75);
 }
 
 div a:hover {
