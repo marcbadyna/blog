@@ -29,13 +29,13 @@ h1 {
 }
 
 .content {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    flex: 0 1 800px;
+    flex: 0 1 900px;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
+    padding-bottom: 16px;
 }
 
 .content .card {
