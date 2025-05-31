@@ -1,72 +1,71 @@
 body {
-    font-family: 'Playfair Display', sans-serif, Arial;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  font-family: "Playfair Display", sans-serif, Arial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 nav {
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 ul li {
-    display: inline;
-    padding: 1rem;
-    flex: 1;
-    text-align: center;
+  display: inline;
+  padding: 1rem;
+  flex: 1;
+  text-align: center;
 }
 
 ul li a {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-    color: rgb(75, 75, 75);
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: rgb(75, 75, 75);
 }
 
 ul li a:hover {
-    color: darkgrey;
+  color: darkgrey;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    flex: 0 1 900px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 16px;
-    padding-bottom: 16px;
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 900px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 16px;
 }
 
-.content .card {
-    padding: 10px;
-    background-color: #eee;
-    height: 200px;
-    width: 600px;
-    text-align: center;
-    border-radius: 2px;
+main .card {
+  padding: 10px;
+  background-color: #eee;
+  height: 200px;
+  width: 600px;
+  text-align: center;
+  border-radius: 2px;
 }
 
 footer {
-    background-color: #eee;
-    text-align: center;
-    padding: 10px;
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
 }
