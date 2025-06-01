@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav {
@@ -66,12 +67,16 @@ main .card {
   text-align: center;
   border-radius: 2px;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 footer {
   background-color: #eee;
+  width: 100%;
   text-align: center;
   padding: 10px;
+  box-sizing: border-box;
+  margin-top: auto;
 }
 
 @media (max-width: 623px) {
@@ -89,5 +94,25 @@ footer {
   .card {
     width: 100%;
     box-sizing: border-box;
+  }
+}
+
+@media (max-width: 577px) {
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 114px) {
+  footer {
+    max-width: 100%;
   }
 }
